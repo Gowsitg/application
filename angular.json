@@ -48,7 +48,8 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "aot": true  // Enable AOT
             },
             "development": {
               "buildOptimizer": false,
@@ -68,7 +69,7 @@
               "browserTarget": "application:build:production"
             },
             "development": {
-              "browserTarget": "application:build:development"
+              "browserTarget": "application:build:development",
             }
           },
           "defaultConfiguration": "development"
